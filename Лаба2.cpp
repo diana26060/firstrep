@@ -50,6 +50,7 @@ srand(static_cast<unsigned int>(time(0))); // инициализация ген�
        double sumOddNumber = 0;
        for(int i = 0; i<n; i+=2){
         sumOddNumber+= arr[i];
+        cout<<"Summ: "<< sumOddNumber<<endl;
        }
        //ищем первый и последний отрицательные элементы
        int firstNeg = -1, lastNeg = 1;
